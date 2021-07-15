@@ -7,21 +7,16 @@ router.get('/', function(req, res, next)
 {
   res.render('index', { title: 'Home' });
 });
-/* GET Home page. */
+/* GET home page. */
 router.get('/home', function(req, res, next) 
 {
   res.render('index', { title: 'Home' });
 });
 
 /*GET Tournament page. */
-router.get('/tournament', function(req, res, next) 
+router.get('/', function(req, res, next) 
 {
-  res.render('index', { title: 'Tournament' });
+  res.render('index', { title: 'Express' });
 });
 
-/*GET Login page. */
-router.get('/login', function(req, res, next) 
-{
-  res.render('index', { title: 'Tournament' });
-});
 //module.exports = router;

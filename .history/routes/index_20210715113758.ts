@@ -7,7 +7,7 @@ router.get('/', function(req, res, next)
 {
   res.render('index', { title: 'Home' });
 });
-/* GET Home page. */
+/* GET home page. */
 router.get('/home', function(req, res, next) 
 {
   res.render('index', { title: 'Home' });
@@ -19,9 +19,4 @@ router.get('/tournament', function(req, res, next)
   res.render('index', { title: 'Tournament' });
 });
 
-/*GET Login page. */
-router.get('/login', function(req, res, next) 
-{
-  res.render('index', { title: 'Tournament' });
-});
 //module.exports = router;
