@@ -5,7 +5,7 @@
  */
 
 import createError from 'http-errors';
-import app from './Server/Config/app';
+import app from './Config/app';
 import debug from 'debug';
 debug('comp229-m2021-team10-project:server');
 import http from 'http';
