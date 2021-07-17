@@ -12,6 +12,6 @@ const tournamentSchema = new Schema(
   }
 );
 
-const Exercise = mongoose.model("Exercise", tournamentSchema);
+const Exercise = mongoose.model("Tournament", tournamentSchema);
 
 module.exports = Exercise;
