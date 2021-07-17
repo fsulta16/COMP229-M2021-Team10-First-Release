@@ -1,0 +1,22 @@
+/*Custom CCS goes here */
+
+/*Center buttons in home.ejs*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color:rgba(3, 21, 124, 0.938)
+}
+a:hover {
+    color: rgba(238, 255, 255, 0.521);
+    
+}

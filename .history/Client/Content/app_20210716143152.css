@@ -6,14 +6,16 @@
     display: flex; 
     justify-content: center;
     align-items: center;
-    height: 100px;    
+    height: 100px;
+    cursor: pointer;  
 }
 a{
-    color: white;  
+    color: white;
+    font-size: 20px;
 }
-a:hover{
+a :hover{
+    color: white;
     background-color: white;
 }
-
 
 

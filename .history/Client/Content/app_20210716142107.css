@@ -1,0 +1,15 @@
+/*Custom CCS goes here */
+
+/*Center buttons in home.ejs*/
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    font-size: 16px;   
+    background-color: inherit;
+    cursor: pointer;
+}
+
+

@@ -2,18 +2,12 @@
 
 /*Center buttons in home.ejs*/
 .btn {
-    
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;    
+    height: 100px;
+    text-align: center;
+    font-size: 16px;   
 }
-a{
-    color: white;  
-}
-a:hover{
-    background-color: white;
-}
-
-
+.btn:hover {background: #eee;}
 

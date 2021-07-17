@@ -1,0 +1,10 @@
+/*Custom CCS goes here */
+
+/*Center buttons in home.ejs*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
